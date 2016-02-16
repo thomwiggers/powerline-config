@@ -10,7 +10,10 @@
 			},
 			{
 				"function": "powerline.segments.common.env.user",
-				"priority": 30
+				"priority": 30,
+                "args": {
+                    "hide_user": "thom"
+                }
 			},
 			{
 				"function": "powerline.segments.common.env.virtualenv",
@@ -30,10 +33,6 @@
 				"function": "powerline.segments.shell.last_pipe_status",
 				"priority": 10
 			},
-            {
-                "function": "powerline.segments.common.time.date",
-                "priority": 90
-            },
 			{
 				"function": "powerline.segments.common.vcs.branch",
 				"priority": 40
